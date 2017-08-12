@@ -60,7 +60,7 @@ KODE IKLAN DISINI
 <b>Your link show here</b> <i aria-hidden="true" class="fa fa-hand-o-down"></i></h3>
 </div>
 <div class="panel-body">
-<script src="https://cdn.rawgit.com/dedi96/safelink/813ce72f/safelinkga.js" type="text/javascript"></script>
+<script src="https://cdn.rawgit.com/black2pribadi/sf/d3822ced/safelink.js" type="text/javascript"></script>
 <script type="text/javascript">
 var currentURL=location.href;
 var str = currentURL;
