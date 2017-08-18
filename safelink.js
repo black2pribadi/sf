@@ -2,13 +2,6 @@
 Home Blogging Tutorial Cara Membuat Blog Safelink Converter Work 100%
 
 
-var blog = document.location.hostname;
-var slug = document.location.pathname;
-var ctld = blog.substr(blog.lastIndexOf("."));
-if (ctld != ".com") {
-var ncr = "https://" + blog.substr(0, blog.indexOf("."));
-ncr += ".blogspot.com/ncr" + slug;
-window.location.replace(ncr); };
 
 
   <div class="text-center margin-bottom-20">
@@ -64,7 +57,7 @@ KODE IKLAN DISINI
 <script type="text/javascript">
 var currentURL=location.href;
 var str = currentURL;
-var res = str.replace("http://gsafelink.blogspot.com/p/generate.html?url=", "");
+var res = str.replace("http://safe.idlama.com/p/generate.html?url=", "");
 document.write('<button type="button" id="download" class="Visit_Link btn btn-success" onclick="changeLink();" style="display: none;"><strong>Visit Link</strong> <i class="fa fa-external-link" aria-hidden="true"></i></button>')
 </script>
   </div>
